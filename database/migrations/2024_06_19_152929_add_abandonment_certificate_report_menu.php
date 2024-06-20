@@ -3,7 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use App\Menu;
 
-class AddAbandonmentCertificateReportMenu extends Migration
+return new class extends Migration
 {
     public function up()
     {
@@ -21,4 +21,4 @@ class AddAbandonmentCertificateReportMenu extends Migration
     {
         Menu::query()->where('old', 999806)->delete();
     }
-}
+};

@@ -3,7 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use App\Menu;
 
-class AddReportCardTransference extends Migration
+return new class extends Migration
 {
     /**
      * Run the migrations.
@@ -30,4 +30,4 @@ class AddReportCardTransference extends Migration
     {
         Menu::query()->where('old', 999881)->delete();
     }
-}
+};
