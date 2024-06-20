@@ -3,7 +3,7 @@
 use Illuminate\Database\Migrations\Migration;
 use App\Menu;
 
-class AddAuditEvaluationsFaultsReportMenu extends Migration
+return new class extends Migration
 {
     public function up()
     {
@@ -20,4 +20,4 @@ class AddAuditEvaluationsFaultsReportMenu extends Migration
     {
         Menu::query()->where('old', 999828)->delete();
     }
-}
+};
