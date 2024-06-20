@@ -9,6 +9,9 @@
 	<parameter name="serie" class="java.lang.Integer"/>
 	<parameter name="instituicao" class="java.lang.Integer"/>
 	<parameter name="turma" class="java.lang.Integer"/>
+    <parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+        <defaultValueExpression><![CDATA[""]]></defaultValueExpression>
+    </parameter>
 	<parameter name="transferido" class="java.lang.Integer">
 		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
 	</parameter>
